@@ -198,35 +198,3 @@ $ java Program
   #   #   #   #   #   #   #   #   2   2
   D   A   S   W   L   K   O   T   E   R
 ```
-
-### Exercise 05 – Schedule
-
-Exercise 05: Schedule ||
----|---
-Turn-in directory	| ex05
-Files to turn-in |Program.java
-**Allowed**
-Input/Output | System.out, System.err, Scanner(System.in)
-Types |	Primitive types, String, arrays
-Operators	| Standard operations of primitive types, conditions, loops
-Methods |	String::equals, String::toCharArray, String::length
-
-You've just become a great hacker, but your customer comes back to you with another task. This time, they need to be able to maintain a class timetable in their educational institution. Customer opens a school in September 2020. So, you need to implement the MVP version of the project for this month only. 
-
-You need to be able to create a list of students and specify time and weekdays for classes. Classes can be held on any day of week between 1 pm and 6 pm. Multiple classes can be held on a single day. However, total classes per week cannot exceed 10.
-
-Maximum number of students in the timetable is also 10. Maximum length of a student's name is 10 (no spaces).
-
-You should also provide an ability to record student's attendance. To do so, time and date of classes shall be specified next to each student's name along with attendance status (HERE, NOT_HERE). You do not need to record attendance for all classes in a month.
-
-Therefore, application's life cycle is as follows:
-1. Creating a list of students
-2. Populating a timetable—each class (time, day of week) is entered in a separate row
-3. Attendance recording
-4. Displaying the timetable in tabular form with attendance statuses.
-
-Each application operation stage is divided by "." (period). Absolute correctness of data is guaranteed, except for sequential ordering of classes when populating the timetable.
-
-Example of program operation:
-
-![program](misc/images/program.png)
